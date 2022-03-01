@@ -2,7 +2,7 @@ import pandas as pd
 from backtesting import Strategy, Backtest
 import numpy as np
 
-df = pd.read_csv("C:\\Users\\Tomk Vu\\Desktop\\Trade\\GBPUSD3.csv")
+df = pd.read_csv("C:\\Users\\Tomk Vu\\Desktop\\Trade\\GBPUSD.csv")
 
 #Check if NA values are in data
 df=df[df['volume']!=0]
